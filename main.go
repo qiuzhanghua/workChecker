@@ -4,8 +4,8 @@ import (
 	"flag"
 	"fmt"
 	"github.com/libgit2/git2go/v30"
+	"log"
 )
-import "log"
 
 func main() {
 	repoPath := flag.String("repo", "/Users/daniel/learn/rust-by-leetcode", "path to the git repository")
